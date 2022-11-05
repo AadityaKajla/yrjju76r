@@ -1,0 +1,34 @@
+body{
+  background-color : limegreen;
+}
+h1{
+  color: purple;
+  background-color: coral;
+
+}
+#show_sketch{
+  float: right;
+}
+canvas{
+  border: 5px solid violet;
+  border-radius:40px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top:45;
+  animation-iteration-count: infinite;
+  background-color: beige;
+}
+@keyframes example{
+  from {box-shadows: 1px 1px 38px grey;} 
+  to   {box-shadows: 1px 1px 38px white;} 
+}
+p{
+  padding-top: 10px;
+  font-size:25px;
+}
+#score{
+  float: right;
+}
+#timer{
+  float:left;
+}
